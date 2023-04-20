@@ -9,17 +9,44 @@
 <title>Ma premiere page HTML</title>
 </head>
 <body>
-<Form action="http://bienvu.net/script.php" method="GET">
+<Form action="http://bienvu.net/script.php" method="POST">
 <fieldset>
-    Vos Coordonnées:<br>
-    <label for="nom">Votre nom:</label><input type="text" name="Votre nom" id="?"><br>
-    <label for="first name">Votre prénom:</label><input type="text" name="Votre Prénom"><br>
-    <br>Sexe*: 
+<fieldset>
+    Vos Coordonnées<br>
+    Votre nom*:<input type="text" name="Votre nom" id="?"required>
+    Votre prénom*:<input type="text" name="Votre Prénom"required>
+    <br>
+    <br><label for="sexe" required>Sexe*:
     <input type="radio" name="sexe" value="Féminin"> Féminin
     <input type="radio" name="sexe" value="Masculin"> Masculin
-<br>Date de naissance:<input type="date" name="ddn" id="date"
-
-
+    </label>
+    <br>
+<br>Date de naissance*:
+<input type="date" name="ddn" id="date" required><br>
+<br>Code Postal*:
+<input type="text" name="postal" id="postal" required><br>
+<br> Adresse :
+<input type="text" name="adresse">
+<br>Ville:
+<input type="text" name="ville">
+<br>
+Email*:<input type="text" name="email" required placeholder="dave.loper@afpa.fr">
+</fieldset>
+<fieldset>
+    Votre demande
+<br>Sujet*:<select id="sujet" required>
+<option value="Mes commandes">Mes commandes</option>
+<option value="Question sur un produit">Question sur un produit</option>
+<option value="Réclamation">Réclamation</option>
+<option value="Autres">Autres</option>
+</select>
+<br>
+<label for="Votre question">Votre question*:</label>
+<textarea required></textarea><p>
+<br><input type="checkbox" value="" required>* J'accepte le traitement informatique de ce formulaire
+<br>
+<input type="submit" valeur="Envoyer"><input type="submit" valeur="Annuler">
+</fieldset>
 
     
     
