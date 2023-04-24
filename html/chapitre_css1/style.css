@@ -1,0 +1,16 @@
+Selecteur{
+    Instruction CSS
+}
+
+h1{
+    color:red;
+}
+
+/*CSS*/
+h1{
+    color:red;
+    border:2px solid blue;
+    background-color:yellow;
+    font-family:green;
+}
+
