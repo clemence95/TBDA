@@ -1,0 +1,30 @@
+#texte{
+    font-family:"Ties New Roman", sans-serif;
+}
+@font-face{
+    font-family:"open Sans";
+    src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2");
+}
+p{
+    line-height:3em;
+}
+p{
+    line-height: normal;
+}
+div{
+    text-align:center;
+}
+div{
+    border: 2px solid red;
+    border-redius:5px;
+}
+footer{
+    border-radius:50% 10% 50% 10%
+}
+div{
+    background: linear-gradient(to right, whrite, black);
+}
+div{
+    box-shadow: 10px 5px 5px red;
+    text-shadow: 1px 1px 2px pink;
+}
