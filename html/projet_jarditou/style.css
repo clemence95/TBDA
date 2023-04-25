@@ -9,13 +9,11 @@ html{
 h1{
     font-size: 2rem;
 }
-img{
+img
+{
     max: width 100%;
     height:auto;
 }
-
-
-
 
 
 .bg-footer{
