@@ -1,3 +1,15 @@
+table{
+    border:medium solid #000;
+    width:50%;
+}
+td{
+    border:thin solid #6495ed;
+    width:50%;
+    font-family:Impact,'Arial Narrow Bold', sans-serif;
+}
+
+
+
 @media screen and (max-width:768px){
     .aside{
         visibility:hidden;
