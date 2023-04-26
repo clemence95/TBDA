@@ -1,7 +1,13 @@
-.bg-header{
+nav{
     color: ghostwhite;
     background: #000;
     padding:10px
+}
+a{
+    color:ghostwhite;
+}
+a:hover{
+    color:blue;
 }
 .aside{
     background-color: aliceblue;
@@ -41,18 +47,11 @@ section{
 p{
     font-family:Impact,'Arial Narrow Bold', sans-serif
 }
-
-
-
-
-
-
-
 @media screen and (max-width:768px){
     .aside{
         visibility:hidden;
         display:none;
         width:0;
         height:0;
-    }.
+    }
 }
