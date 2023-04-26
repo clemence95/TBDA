@@ -25,6 +25,7 @@
 
 }
 div{
+    font-size:200%;
     width:60%;
     display: flex;
     align-items: center;
@@ -36,6 +37,9 @@ header{
 section{
     display: flex;
     justify-content: flex-start;
+}
+p{
+    font-family:Impact,'Arial Narrow Bold', sans-serif
 }
 
 
