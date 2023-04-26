@@ -1,5 +1,9 @@
 form{
-    background-color: darksalmon;
+    background-color:darkgray;
+    border-radius: 5px;
+    margin: 20px;
+    ;
+    
 }
 
 @media screen and (max-width:768px){
