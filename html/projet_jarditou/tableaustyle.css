@@ -7,14 +7,3 @@ td{
     width:50%;
     font-family:Impact,'Arial Narrow Bold', sans-serif;
 }
-
-
-
-@media screen and (max-width:768px){
-    .aside{
-        visibility:hidden;
-        display:none;
-        width:0;
-        height:0;
-    }.
-}
