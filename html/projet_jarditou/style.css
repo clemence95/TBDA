@@ -47,6 +47,7 @@ section{
 p{
     font-family:Impact,'Arial Narrow Bold', sans-serif
 }
+/* Colonne droite */
 @media screen and (max-width:768px){
     .aside{
         visibility:hidden;
@@ -54,10 +55,33 @@ p{
         width:0;
         height:0;
     }
+}
+/* Style.css Formulaire */
     form{
         background-color:darkgray;
         border-radius: 5px;
         margin: 20px;
         
     }
+/* Style.css Tableau */
+a{
+    color:ghostwhite;
 }
+a:hover{
+    color:blue;
+}
+    img{
+        width: 100%;
+        height: auto;
+    }
+    table{
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    td,tr{
+        border:thin solid #6495ed;
+        width:150px;
+        text-align: center;
+        font-family:Impact,'Arial Narrow Bold', sans-serif;
+    }
