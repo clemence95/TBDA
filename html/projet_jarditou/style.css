@@ -54,4 +54,10 @@ p{
         width:0;
         height:0;
     }
+    form{
+        background-color:darkgray;
+        border-radius: 5px;
+        margin: 20px;
+        
+    }
 }
