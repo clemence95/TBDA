@@ -1,0 +1,18 @@
+Exercice 4.1
+Si A <= B + 4 ET C <> "ok" ALORS
+A ← B - 1
+Sinon
+A ← A + 1
+Finsi
+
+Exercice 4.2
+Variables H, M 
+AFFICHER "ECRIRE L'HEURE PUIS LES MINUTES"
+LIRE H
+LIRE M
+Si M =60 Alors
+M ← M +1
+H ← H +1
+FINSi
+Si H = 24 Alors
+H
