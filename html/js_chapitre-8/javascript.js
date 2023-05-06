@@ -1,5 +1,5 @@
 var NomPrenom = prompt("Saisir votre nom");
-if(Nom==null){
+if(NomPrenom==null){
     alert("Annuler");
     return;
 }
