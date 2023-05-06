@@ -3,9 +3,6 @@ if (Nomprenom == null) {
     alert("Annuler");
     return;
 }
-while (true){
 
-    
-}
 
 
