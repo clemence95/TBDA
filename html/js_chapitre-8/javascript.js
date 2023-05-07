@@ -1,10 +1,5 @@
-var Nom = prompt("Saisir votre nom");
-if(Nom==null){
+var NomPrenom = prompt("Saisir votre nom");
+if(NomPrenom==null){
     alert("Annuler");
     return;
-}
-var Prenom = prompt("Saisair votre prénom");
-if (Prenom==null){
-alert("Annuler");
-return;
 }
