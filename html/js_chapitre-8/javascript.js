@@ -1,5 +1,4 @@
-var prenom = prompt("Saisir votre nom");
-if(prenom==null){
-    alert("Annuler");
-    return;
+var prenom = prompt("Saisir un prenom");
+while(prenom != null){
+var prenom = prompt("Saisir un prenom");
 }
