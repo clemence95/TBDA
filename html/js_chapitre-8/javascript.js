@@ -1,4 +1,4 @@
-for (var compteur = 0; compteur != null; compteur++) {
-    var compteur = prompt("Sairsir un prenom");
-    console.log(compteur);
+var prenom = prompt("Saisir un Prénom");
+while(prenom!=null){
+    var prenom=prompt("Saisir un prenom");
 }
