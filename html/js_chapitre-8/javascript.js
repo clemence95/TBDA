@@ -1,7 +1,7 @@
-var prenom = prompt("Saisir un Prénom");
-while(prenom!=null){
-    var prenom=prompt("Saisir un prenom");
-    var nombre = 0; ligne=prenom; ligne++;
+var prenoms = prompt("Saisir un prenoms");
+while(prenoms!=null){
+    if()
+var prenoms = prompt("Saisir prenoms")
+console.log(prenoms);
 }
-console.log("ligne"+prenom+"="+resultat);
-alert("voici ce que vous avez saisi :\n\nNombre de prenom :"+ligne+"\nvotre prenom :" +prenom);
+console.log(prenoms);
