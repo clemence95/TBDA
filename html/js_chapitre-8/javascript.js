@@ -14,4 +14,22 @@ var nombre = prompt("Ecrire un nombre entier");
 for (var i = nombre; i >= 0; i--) {
     console.log(i);
 }
+total = 0
+compteur = 0
+while (nombre != "") {
+    nombre = int(input("Saisir un nombre entier 0 pour arreter la saisie"));
+    if (nombre == 0) {
+        total += nombre
+        compteur += 1
+        break
+    }
 
+    if (compteur > 0) {
+moyenne = total / compteur
+alert("La somme est :"+total);
+alert("La moyenne est :"+moyenne);
+    }
+    else{
+        alert("Aucun nombre saisi");
+    }
+}
