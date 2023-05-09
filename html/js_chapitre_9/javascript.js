@@ -11,14 +11,14 @@ function produit(cube, calc){
 
 function afficheImg(img){
 var imagejavascript = document.createElement("img");
-imagejavascript.src ="/js_chapitre_9/img/papillon.jpg";
+imagejavascript.src ="/home/stagiaire/Bureau/Travaux_TBDA/html/js_chapitre_9/papillon.png";
 document.body.appendChild(imagejavascript);
 }
-afficheImg("/js_chapitre_9/img/papillon.jpg");
+afficheImg("/home/stagiaire/Bureau/Travaux_TBDA/html/js_chapitre_9/papillon.png");
 
 function strtok(str1, str2, n){
     var phrase = str1.split(str2);
     console.log(phrase[n]);
 }
 str1 = "robert ;dupont ;amiens ;80000"
-strtok(str1, ";", 2)
+strtok(str1, ";", 2);
