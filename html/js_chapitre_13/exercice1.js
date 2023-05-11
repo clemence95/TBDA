@@ -1,0 +1,1 @@
+document.write(<body><h1>Mon 1er script</h1></body>);
