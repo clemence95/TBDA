@@ -1,3 +1,4 @@
+//Exercice 1
 var cube = prompt("ecrire un nombre");
 var calc = prompt("ecrire un multiplicateur");
 resultat1 = Number(cube) * Number(cube) * Number(cube)
@@ -16,6 +17,7 @@ document.body.appendChild(imagejavascript);
 }
 afficheImg("/home/stagiaire/Bureau/Travaux_TBDA/html/js_chapitre_9/papillon.png");
 
+//Exercice 2
 function strtok(str1, str2, n){
     var phrase = str1.split(str2);
     console.log(phrase[n]);
