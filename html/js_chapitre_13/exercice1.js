@@ -1,1 +1,1 @@
-document.write(<body><h1>Mon 1er script</h1></body>);
+document.write(<title>Mon 1er script</title>);
