@@ -1,23 +1,20 @@
-    // Demande à l'utilisateur de saisir la taille du tableau
-  var tailleTableau = prompt("Entrez la taille du tableau:");
-tailleTableau.length;
-   // Convertit la réponse en nombre entier
-    tailleTableau = parseInt(tailleTableau);
+function AddElement(event){
+  event.preventDefault();
 
-  // Initialise le tableau
-    var tableau = [];
+  let IdElement = document.getElementById("plat");
 
-   // Boucle pour demander à l'utilisateur de saisir les valeurs du tableau
-   for (var i = 0; i < tailleTableau; i++) 
-    tab[tailleTableau] = prompt("Entrez une valeur:");
+  console.log(IdElement.value);
 
-    // Ajoute la valeur à la fin du tableau
-     tableau.push(valeur);
+  let ligne = document.createElement('tr');
+  let cellule = document.createElement('td');
 
-    // Affiche le contenu du tableau
-    console.table(length);
-   console.table(tableau);
-   alert(tableau);
+  cellule.innerHTML = IdElement.value;
+  ligne.appendChild(cellule);
+
+  let IdTableau = document.getElementById("body");
+
+  IdTableau.appendChild(ligne);
+}
 
 
 

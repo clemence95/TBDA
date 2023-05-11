@@ -3,21 +3,44 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>JAVASCRIPT</title>
-
-    
+    <title>Document</title>
+    <link rel="stylesheet" href="/exo_10/style.css">
 </head>
 
 <body>
-   <h1>Tableau (Array)</h1>
+    <div class="container">
+        <table id="mainTab" class="table">
+            <thead class="thead-dark">
+                <tr style="font-size: 12px;">
+                    <th scope="col">Tableau
+                    <th>
+                </tr>
+            </thead>
 
+            <tbody id="body">
+                <tr>
+                    <td>Saisir les valeurs</td>
+                </tr>
+            </tbody>
 
-
-
-    <script src="javascript.js"></script>
-
+            <tbody class="initule">
+                <form onsubmit="AddElement(event);">
+                    <tr>
+                        <td>
+                            <label class="initule" for="plat">saisi :</label>
+                            <input type="text" id="plat" name="plat" class="champ">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><button value="submit">Ajouter</button></td>
+                    </tr>
+                </form>
+            </tbody>
+        </table>
+    </div>
+    <script src=javascript.js></script>
 </body>
 
 </html>
