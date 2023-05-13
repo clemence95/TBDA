@@ -2,16 +2,16 @@
 let jeune = 0; 
 let adulte = 0; 
 let centenaire= 0; 
-let age = prompt(parseInt("Saisir un age"));
-while (age ==""){
-     age = prompt(parseInt("Saisir un age"));
+let age = 0;
+while (age<100){
+     age = parseInt(prompt("Saisir un age"));
     if(age<20){
 jeune++;
     }
     else if (age>=20 && age<=40){
         adulte++;
     }
-    else (age<100 && age>40) {
+    else {
         centenaire++;
         break;
     }
