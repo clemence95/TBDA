@@ -32,6 +32,18 @@ function TabledeMultiplication(nb) {
 }
 TabledeMultiplication(nb);
 
+//Exercice 3
+let tab = ["Audrey","Aurélien","Flavien","Jérémy","Laurent","Melik","Nouara","Salem","Samuel"];
+
+let prenom = prompt("Saisir un prenom")
+let index = tab.indexOf(prenom); //indexof vérifie si le prénom est dans le tableau
+if(index !== -1){ 
+//Supprime le prenom
+tab.splice(index,1);
+document.write("Vous avez trouvé un prénom");
+prenom =prompt("Sai")
+}
+document.write("Le prénom n'a pas été trouvé dans le tableau");
 
 
 
