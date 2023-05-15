@@ -32,7 +32,17 @@ TableMultiplication(nb);
 //Exercice 3 
 var tab = ["Audrey", "Aurélien", "Flavien", "Jérémy", "Laurent", "Melik", "Nouara", "Salem", "Samuel", "Stéphane"];
 var prenom = prompt("Saisir un prenom");
-
+var tab1= tab.indexOf("prenom");
+document.write(prenom);
+for (i=0;i<tab.length;i++){
+      if(tab[i]==prenom){
+for(tab1=i; tab1<tab.length-1;tab1++){
+    tab[i]=tab[i+1];
+    i++;
+}
+      }
+      document.write(tab1);
+}
 
 
 
