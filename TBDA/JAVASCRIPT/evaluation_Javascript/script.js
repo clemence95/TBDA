@@ -29,6 +29,11 @@ function TableMultiplication(x) {
 }
 TableMultiplication(nb);
 
+//Exercice 3 
+var tab = ["Audrey", "Aurélien", "Flavien", "Jérémy", "Laurent", "Melik", "Nouara", "Salem", "Samuel", "Stéphane"];
+var prenom = prompt("Saisir un prenom");
+
+
 
 
 
