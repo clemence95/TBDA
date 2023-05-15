@@ -26,9 +26,9 @@ function TableMultiplication(nb) {
     for (i = 0; i <= 10; i++) {
         resultat = nb * i;
     }
-    document.write(TableMultiplication(nb));
 }
-
+TableMultiplication(nb);
+document.write(TableMultiplication(nb));
 
 
 
