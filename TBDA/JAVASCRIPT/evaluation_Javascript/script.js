@@ -45,7 +45,40 @@ while ( tab1!= -1){
     alert("Vous avez trouvé un prenom, félicitation !");
 }
 console.table(tab);
-document.write("Ce prénom ne se trouve pas dans la liste"+"<br");
+document.write("Ce prénom ne se trouve pas dans la liste"+"<br>");
+
+//Exercice 4 
+let pu = prompt("Entrer un prix unitaire");
+let qtecom = prompt("Entrer la quantité");
+let tot = pu*qtecom;
+document.write("<br>Le prix total (produit+quantité) est de :"+tot+"€<br>");
+
+//Remise
+if(tot<=100){
+    rem=0
+}
+else if((tot>=100) &&(tot<=200)){
+
+}
+else if(tot>200){
+    rem=0.1;
+}
+totrem = tot - (tot*rem)
+document.write("Le prix(produit+quantité) avec la remise est de : "+totrem+"<br>");
+
+//port 
+let port = 0;
+if(totrem>500){
+    port=0;
+}
+else if(totrem<=500){
+    port=totrem*0.2
+}
+else if (port<6);
+port=6;
+document.write("Le total de la commande: "+totrem+"€<br>"+"plus les frais de port sont de :"+port+"€<br>"+"Le total est de :"
++(port+totrem)+"€");
+
 
 
 
