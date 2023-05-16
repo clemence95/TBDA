@@ -33,7 +33,7 @@ TableMultiplication(nb);
 var tab = ["Audrey", "Aurélien", "Flavien", "Jérémy", "Laurent", "Melik", "Nouara", "Salem", "Samuel", "Stéphane"];
 var prenom = prompt("Saisir un prenom");
 var tab1;
-document.write(prenom);
+document.write(prenom+"<br>");
 
 tab1 = tab.indexOf(prenom);
 
@@ -42,10 +42,10 @@ while ( tab1!= -1){
     prenom = prompt("Saisir un prenom");
     tab1=tab.indexOf(prenom);
     tab.splice(tab1,1);
-    alert("Vous avez trouvé un prenom, félicitation !")
+    alert("Vous avez trouvé un prenom, félicitation !");
 }
-Alert("Ce prénom ne se trouve pas dans la liste"+"<br");
-document.write("Voici la liste finale des prénoms"+tab+"<br>");
+console.table(tab);
+document.write("Ce prénom ne se trouve pas dans la liste"+"<br");
 
 
 
