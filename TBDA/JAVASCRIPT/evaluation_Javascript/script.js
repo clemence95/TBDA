@@ -34,16 +34,17 @@ var tab = ["Audrey", "Aurélien", "Flavien", "Jérémy", "Laurent", "Melik", "No
 var prenom = prompt("Saisir un prenom");
 var tab1;
 document.write(prenom);
-for (i=0;i<tab.length;i++){
-      if(tab[i]==prenom){
-for(tab1=i; tab1<tab.length-1;tab1++){
-    tab[i]=tab[i+1];
-    i++;
-}
-      }
-      document.write(tab1);
-}
 
+tab1 = tab.indexof(prenom);
+while (box != -1){
+    tab.splice(box,1);
+    prenom = prompt("Saisir un prenom");
+    tab1=tab.indexof(prenom);
+    tab.splice(tab1,1);
+    document.write("Vous avez trouvé un prenom, félicitation !")
+}
+document.write("Ce prénom ne se trouve pas dans la liste");
+document.write("Voici la liste finale des prénoms");
 
 
 
