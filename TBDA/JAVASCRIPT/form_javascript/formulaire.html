@@ -32,8 +32,7 @@
     <form method="get" id="formulaire_contact" action="#" name="myForm">
         * ces zones sont obligatoires
         <fieldset>
-            Vos coordonnées<br>
-            <p>
+            <legend>Vos coordonnées<br></legend>
             <div>
                 <label for="nom">Votre nom*:</label>
                 <input type="text" name="nom" id="nom"><br>
@@ -43,15 +42,14 @@
             <div>
                 <label for="prenom">Votre prenom*:</label>
                 <input type="text" name="prenom" id="prenom"><br>
-                <p>
                     <span id="prenom_error"></span>
             </div>
 
             <div>
-                sexe* :
-                <input type="radio" name="sexe" value="homme"> homme
-                <input type="radio" name="sexe" value="femme"> femme <br>
-                <p>
+                <label for ="sexe">sexe* :</label>
+                <input type="radio" name="sexe" value="Masculin"> Masculin
+                <input type="radio" name="sexe" value="Féminin"> Féminin 
+                <span id="sexe_error"></span>
             </div>
 
             <div>
@@ -86,12 +84,13 @@
         </fieldset>
 
         <fieldset>
-            votre question<br>
+            <legend>Votre demande</legend><br>
             <p>
             <div>
                 <label for="demande">Sujet* :</label>
                 <select id="demande">
                     <option value="" selected>Veuillez séléctionner un sujet </option>
+
                     <option value="commandes" selected>Mes commandes</option>
                     <option value="Question" selected>Question sur un produit</option>
                     <option value="réclamation" selected>Réclamation</option>
@@ -99,16 +98,12 @@
                     <span id="demande_error"></span>
             </div>
             </select>
-            <p>
 
             <div>
-                <label for="question">Votre question*:</label><input type="TextArea" id="question">
+                <label for="question">Votre question*:</label><input type="text" id="question">
                 <span id="question_error"></span>
-            </div>
-            <div>
-                <br><input type="checkbox" name="validation" value="yes"></br>
-                <br>
-                <legend> J'accepte le traitement informatique de ce formulaire</legend><br>
+                <br><input type="checkbox" name="validation" value="yes">
+                <legend> J'accepte le traitement informatique de ce formulaire</legend>
                 <input type="submit" value="Envoyer">
                 <input type="reset" value="Annuler">
             </div>
