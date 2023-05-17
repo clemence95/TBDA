@@ -21,48 +21,48 @@ form.addEventListener('submit', (event) => {
 if (!form.nom.value){
     let error = document.querySelector('#nom_error')
     event.preventDefault();
-    error.textContent = "le champ nom est requis"
+    error.textContent = "le champ est obligatoire"
     error.style.color = "red"
 }
 
 if (!form.prenom.value){
     let error = document.querySelector('#prenom_error')
     event.preventDefault();
-    error.textContent = "le champ prenom est requis"
+    error.textContent = "le champ est obligatoire"
     error.style.color = "red"
 }
 
 if (!form.date.value){
     let error = document.querySelector('#date_error')
     event.preventDefault();
-    error.textContent = "le champ date est requis"
+    error.textContent = "le champ est obligatoire"
     error.style.color = "red"
 }
 
 if (!form.code.value){
     let error = document.querySelector('#code_error')
     event.preventDefault();
-    error.textContent = "le champ code est requis"
+    error.textContent = "le champ est obligatoire"
     error.style.color = "red"
 }
 if (!form.mail.value){
     let error = document.querySelector('#mail_error')
     event.preventDefault();
-    error.textContent = "le champ mail est requis"
+    error.textContent = "le champ est obligatoire"
     error.style.color = "red"
 }
 
 if (!form.demande.value){
     let error = document.querySelector('#demande_error')
     event.preventDefault();
-    error.textContent = "le champ demande est requis"
+    error.textContent = "le champ est obligatoire"
     error.style.color = "red"
 }
 
 if (!form.question.value){
     let error = document.querySelector('#question_error')
     event.preventDefault();
-    error.textContent = "le champ question est requis"
+    error.textContent = "le champ est obligatoire"
     error.style.color = "red"
 }
  }
