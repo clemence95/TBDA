@@ -14,7 +14,7 @@
 <body>
     <header>
         <section><img class="flotte" id="logo" src="assets/jarditou_logo.jpg" align="left"></section>
-        <div>
+        <div class="Toutlejardin">
             <b>Tout le jardin</b>
         </div>
     </header>
@@ -86,7 +86,7 @@
         </fieldset>
 
         <fieldset>
-            votre demande<br>
+            votre question<br>
             <p>
             <div>
                 <label for="demande">Sujet* :</label>
@@ -104,11 +104,13 @@
             <div>
                 <label for="question">Votre question*:</label><input type="TextArea" id="question">
                 <span id="question_error"></span>
-                    <input type="checkbox" name="validation" value="yes">
-                    <p>* J'accepte le traitement informatique de ce formulaire</p>
-                    <input type="submit" value="Envoyer">
-                    <input type="reset" value="Annuler">
-                    
+            </div>
+            <div>
+                <br><input type="checkbox" name="validation" value="yes"></br>
+                <br>
+                <legend> J'accepte le traitement informatique de ce formulaire</legend><br>
+                <input type="submit" value="Envoyer">
+                <input type="reset" value="Annuler">
             </div>
         </fieldset>
         <p>
@@ -123,4 +125,5 @@
     </footer>
     <script src="script.js"></script>
 </body>
+
 </html
