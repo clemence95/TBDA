@@ -29,47 +29,92 @@
 
     </nav>
     <img id="promotion" src="promotion.jpg" alt="Image">
-    <Form action="http://bienvu.net/script.php" method="POST">
+    <form method="get" id="formulaire_contact" action="#" name="myForm">
+        * ces zones sont obligatoires
         <fieldset>
-            <fieldset>
-                Vos Coordonnées<br>
-                Votre nom*:<input type="text" name="Votre nom" id="?" required>
-                Votre prénom*:<input type="text" name="Votre Prénom" required>
-                <br>
-                <br><label for="sexe" required>Sexe*:
-                    <input type="radio" name="sexe" value="Féminin"> Féminin
-                    <input type="radio" name="sexe" value="Masculin"> Masculin
-                </label>
-                <br>
-                <br>Date de naissance*:
-                <input type="date" name="ddn" id="date" required><br>
-                <br>Code Postal*:
-                <input type="text" name="postal" id="postal" required><br>
-                <br> Adresse :
-                <input type="text" name="adresse">
-                <br>Ville:
-                <input type="text" name="ville">
-                <br>
-                Email*:<input type="text" name="email" required placeholder="dave.loper@afpa.fr">
-            </fieldset>
-            <fieldset>
-                Votre demande
-                <br>Sujet*:<select id="sujet" required>
-                    <option value="Mes commandes">Mes commandes</option>
-                    <option value="Question sur un produit">Question sur un produit</option>
-                    <option value="Réclamation">Réclamation</option>
-                    <option value="Autres">Autres</option>
-                </select>
-                <br>
-                <label for="Votre question">Votre question*:</label>
-                <textarea required></textarea>
+            Vos coordonnées<br>
+            <p>
+            <div>
+                <label for="nom">Votre nom*:</label>
+                <input type="text" name="nom" id="nom"><br>
+                <span id="nom_error"></span>
+            </div>
+
+            <div>
+                <label for="prenom">Votre prenom*:</label>
+                <input type="text" name="prenom" id="prenom"><br>
                 <p>
-                    <br><input type="checkbox" value="" required>* J'accepte le traitement informatique de ce formulaire
-                    <br>
-                    <input type="submit" valeur="Envoyer">
-                    <input type="submit" value="Annuler">
-            </fieldset>
+                    <span id="prenom_error"></span>
+            </div>
+
+            <div>
+                sexe* :
+                <input type="radio" name="sexe" value="homme"> homme
+                <input type="radio" name="sexe" value="femme"> femme <br>
+                <p>
+            </div>
+
+            <div>
+                <label for="date">Date de naissance*:</label>
+                <input type="date" name="ddn" id="date"><br>
+                <span id="date_error"></span>
+            </div>
+
+            <div>
+                <label for="code">Code postal*:</label>
+                <input type="text" name="code" id="code"><br>
+                <span id="code_error"></span>
+            </div>
+
+            <div>
+                <label for="adresse">Adresse:</label>
+                <input type="text" name="adresse" id="adresse"><br>
+                <span id="adresse_error"></span>
+            </div>
+
+            <div>
+                <label for="ville">Ville:</label>
+                <input type="text" name="ville" id="ville"><br>
+                <span id="ville_error"></span>
+                <div>
+
+                    <div>
+                        <label for="mail">Email*:</label>
+                        <input type="email" name="email" id="mail"><br>
+                        <span id="mail_error"></span>
+                    </div>
         </fieldset>
+
+        <fieldset>
+            votre demande<br>
+            <p>
+            <div>
+                <label for="demande">Sujet* :</label>
+                <select id="demande">
+                    <option value="" selected>Veuillez séléctionner un sujet </option>
+                    <option value="commandes" selected>Mes commandes</option>
+                    <option value="Question" selected>Question sur un produit</option>
+                    <option value="réclamation" selected>Réclamation</option>
+                    <option value="Autres" selected>Autres</option>
+                    <span id="demande_error"></span>
+            </div>
+            </select>
+            <p>
+
+            <div>
+                <label for="question">Votre question*:</label><input type="TextArea" id="question"><br>
+                <span id="question_error"></span>
+                <p>
+                    <br><input type="checkbox" name="validation" value="yes"><p><br>* J'accepte le traitement informatique de ce
+                    formulaire
+                <p>
+                    <input type="submit" value="Envoyer">
+                    <input type="reset" value="Annuler">
+                    
+            </div>
+        </fieldset>
+        <p>
+
     </form>
     <footer class="bg-footer">
 
@@ -80,3 +125,4 @@
     </footer>
     <script src="script.js"></script>
 </body>
+</html>

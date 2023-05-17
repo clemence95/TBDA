@@ -35,7 +35,7 @@ nav {
 }
 
 div {
-    font-size: 200%;
+    font-size: 100%;
     width: 60%;
     display: flex;
     align-items: center;
@@ -57,9 +57,8 @@ article {
 /* Style.css Formulaire */
 form {
     background-color: darkgray;
-    border-radius: 5px;
-    margin: 20px;
-
+    border-radius: auto;
+    margin: auto;
 }
 
 /* Style.css accueil tete de page  */
