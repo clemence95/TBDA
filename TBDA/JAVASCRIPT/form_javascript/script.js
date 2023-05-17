@@ -1,10 +1,10 @@
-let nom = document.getElementById("nom").value.trim();
-let prenom = document.getElementById("prenom").value.trim();
-let date = document.getElementById("date").value.trim();
-let code = document.getElementById("code").value.trim();
-let mail = document.getElementById("mail").value.trim();
-let demande = document.getElementById("demande").value.trim();
-let question = document.getElementById("question").value.trim();
+let nom = document.getElementById("nom").value.trim()
+let prenom = document.getElementById("prenom").value.trim()
+let date = document.getElementById("date").value.trim()
+let code = document.getElementById("code").value.trim()
+let mail = document.getElementById("mail").value.trim()
+let demande = document.getElementById("demande").value.trim()
+let question = document.getElementById("question").value.trim()
 let nom_error = document.getElementById("nom_error");
 let prenom_error = document.getElementById("prenom_error");
 let date_error = document.getElementById("date_error");
@@ -16,7 +16,7 @@ let question_error = document.getElementById("question_error");
 let valid = true;
 
 let form = document.querySelector('#formulaire_contact');
-form.addEventListener('submit'), (event) => {
+form.addEventListener('submit', (event) => {
 
     if (!form.nom.value) {
         let error = document.querySelector('#nom_error');
@@ -65,3 +65,4 @@ form.addEventListener('submit'), (event) => {
         error.style.color = "red"
     }
 }
+)
