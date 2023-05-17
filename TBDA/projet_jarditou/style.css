@@ -57,8 +57,8 @@ article {
 /* Style.css Formulaire */
 form {
     background-color: darkgray;
-    border-radius: 5px;
-    margin: 20px;
+    border-radius: auto;
+    margin: auto;
 
 }
 
@@ -96,8 +96,8 @@ tr {
     .aside {
         visibility: hidden;
         display: none;
-        width: 0;
-        height: 0;
+        width: auto;
+        height: auto;
     }
 
     /* Texte page d'accueil zoom */
