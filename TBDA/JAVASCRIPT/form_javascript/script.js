@@ -16,7 +16,7 @@ let question_error = document.getElementById("question_error");
 let valid = true;
 
 let form = document.querySelector('#formulaire_contact');
-form.addEventListener('submit'), event => {
+form.addEventListener('submit'), (event) => {
 
     if (!form.nom.value) {
         let error = document.querySelector('#nom_error');
