@@ -20,5 +20,5 @@ height: auto;
 color: rgb(167, 113, 14);
 } 
 .barre{
-    background-image: url(../assets/img/bg2.jpeg);
+    background-image: url("STATIQUE/HTML/assets/img/bg2.jpeg";
 }
