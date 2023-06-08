@@ -1,0 +1,9 @@
+.bg-header{
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo {
+    width:100px;
+    justify-content: space-between;
+}
