@@ -1,14 +1,24 @@
 header{
     display:flex;
-    justify-content: space-between;
+    height: 200px;
+    /* justify-content: space-between; */
 }
 #logo{
-    width: 150px;
-    height: 150px;
+    width: auto;
+    height: 200px;
 }
 nav a{
 display:inline-flex;
 justify-content: space-between;
 padding: 100px;
-font-family: 'Dancing Script', cursive;
+font-family: 'Dancing Script', cursive; 
+font-size: 15pt;
+color: rgb(107, 18, 45);
+height: auto;
+}
+ a:hover{
+color: rgb(167, 113, 14);
+} 
+.barre{
+    background-image: url(../assets/img/bg2.jpeg);
 }
