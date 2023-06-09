@@ -22,7 +22,7 @@ color: rgb(167, 113, 14);
 #fond{
     display: inline-flex;
     justify-content: space-around;
-    background-image:url(/STATIQUE/HTML/assets/style.css/bg2.jpeg);
+    background-image:url(/STATIQUE/HTML/assets/img/logo.png);
     /* background-size:cover;
     height: 300px;
     width: 100%; */
