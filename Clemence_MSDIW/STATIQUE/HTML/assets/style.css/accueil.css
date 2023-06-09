@@ -19,6 +19,6 @@ height: auto;
  a:hover{
 color: rgb(167, 113, 14);
 } 
-.barre{
-    background-image: url(assets/img/bg2.jpeg);
+#barre{
+    background-image: url(../assets/img/bg2.jpeg);
 }
