@@ -19,6 +19,13 @@ height: auto;
  a:hover{
 color: rgb(167, 113, 14);
 } 
-#barre{
-    background-image: url(/STATIQUE/HTML/assets/img/bg2.jpeg);
+#fond{
+    display: inline-flex;
+    justify-content: space-around;
+    background-image:url(/STATIQUE/HTML/assets/style.css/bg2.jpeg);
+    /* background-size:cover;
+    height: 300px;
+    width: 100%; */
+    margin-top: 300px;
+
 }
