@@ -43,45 +43,38 @@ a:hover {
     width: 20%;
 }
 
-#containere {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 20pt;
+/* Grille */
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(7, 190px);
+    top: 100%;
+    gap: 1em;
 }
 
-#ac {
-    display:flex;
-    justify-content: space-around;
-    padding: 3em;
-    left: 10em;
-    height: 5px;
-    width: 30px;
-    position: relative;
-}
-
-.asian {
+.wrapper img {
     height: 200px;
-    width: 200px;
+    width: 100%;
+}
+h1{
+text-align: center;
+}
+.one {
+    grid-column-start: 1;
 }
 
-.text-asian{
-    color: bisque;
-    text-decoration: underline;
-    position: absolute;
-    left: 70%;
-    top: 30%;
-    font-size: 28pt;
+.two {
+    grid-column-start: 2;
 }
-.burger { 
-    height: 200px;
-    width: 200px;
+
+.three {
+    grid-column-start: 3;
 }
-.text-burger{
-    color: bisque;
-    text-decoration: underline;
-    position:absolute;
-     left: 50%;
-    top: 220%; 
-    font-size: 28pt;
+
+.four {
+    grid-column-start: 2;
+}
+
+.five {
+    grid-column-start: 3;
+    grid-row: 2/3;
 }
