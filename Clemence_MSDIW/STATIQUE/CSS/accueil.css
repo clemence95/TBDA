@@ -1,5 +1,5 @@
 html {
-    font-family: 'Dancing Script';
+     /* font-family: 'Dancing Script'!important;  */
     color: rgb(107, 18, 45);
 }
 
@@ -17,7 +17,7 @@ header {
 }
 
 nav a {
-    padding: 100px;
+    padding: 90px;
     font-size: 16pt;
     color: rgb(107, 18, 45);
 }
@@ -46,7 +46,7 @@ a:hover {
 /* Grille */
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(7, 190px);
+    grid-template-columns: repeat(4, 190px);
     top: 100%;
     gap: 1em;
 }
@@ -57,6 +57,7 @@ a:hover {
 }
 h1{
 text-align: center;
+grid-column-start: 2;
 }
 .one {
     grid-column-start: 1;
@@ -72,6 +73,7 @@ text-align: center;
 
 .four {
     grid-column-start: 2;
+    grid-row: 2/2;
 }
 
 .five {
