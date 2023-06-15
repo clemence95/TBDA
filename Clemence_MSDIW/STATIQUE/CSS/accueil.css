@@ -10,7 +10,7 @@ html {
 }
 
 header {
-    display: inline-flex;
+    display: absolute;
     height: 100%;
     width: 100%;
     background-color: rgb(107, 18, 45);
