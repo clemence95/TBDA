@@ -4,9 +4,14 @@
     text-decoration:none;
     list-style:none;
 }
+body{
+    font-family: 'Dancing Script'!important; 
+}
 header{
-    height:100vh;
-    width:100vw;
+    display: inline-flex;
+    justify-content: space-between;
+    height:150px;
+    width:100%;
     background-image: url(../assets/img/bg3.jpeg);
     background-size:cover;
 }
@@ -14,17 +19,23 @@ header{
     position:absolute;
     padding:50px;
     display: flex;
-    justify-content:space-between;
-    align-items: center ;
+    justify-content:space-around;
+    align-items: center;
     width:100%;
     box-sizing:border-box;
 }
-.navbar a {
+.navbar a{
+    font-size: 2em;
     color: white;
 }
-.navbar .nav-links ul{
+.logo{
     display: flex;
+    height: 200px;
+    width: 200px;
 }
-.navbae .nav-links ul li{
-    margin: 0 25px;
+.navbar .nav-links ul{
+    display:flex;
+}
+.navbar .nav-links ul li{
+margin: 0 20px;
 }

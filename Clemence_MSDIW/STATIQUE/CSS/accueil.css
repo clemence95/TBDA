@@ -1,25 +1,47 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
 html {
-     /* font-family: 'Dancing Script'!important;  */
+    font-family: 'Dancing Script' !important;
     color: rgb(107, 18, 45);
 }
 
 header {
     display: inline-flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 200px;
-    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    background-color: rgb(107, 18, 45);
+    background-size: cover;
 }
 
-#logo {
+.logo {
     width: auto;
     height: 200px;
+}
+
+.navbar {
+    display: absolute;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+.navbar .nav-links ul{
+    display:flex;
+}
+.navbar .nav-links ul li {
+    margin: 0 20px;
 }
 
 nav a {
     padding: 90px;
     font-size: 16pt;
-    color: rgb(107, 18, 45);
+    color: rgb(167, 113, 14);
+    font-family: 'Dancing Script' !important;
 }
 
 .bg-header {
@@ -55,10 +77,12 @@ a:hover {
     height: 200px;
     width: 100%;
 }
-h1{
-text-align: center;
-grid-column-start: 2;
+
+h1 {
+    text-align: center;
+    grid-column-start: 2;
 }
+
 .one {
     grid-column-start: 1;
 }
