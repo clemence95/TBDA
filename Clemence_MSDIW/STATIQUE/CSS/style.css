@@ -1,7 +1,30 @@
-#logo{
-    height: 200px;
-} 
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    list-style:none;
+}
+header{
+    height:100vh;
+    width:100vw;
+    background-image: url(../assets/img/bg3.jpeg);
+    background-size:cover;
+}
 .navbar{
-     font-family: 'Dancing Script'!important; 
-    background-color: rgb(107, 18, 45)!important;
+    position:absolute;
+    padding:50px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center ;
+    width:100%;
+    box-sizing:border-box;
+}
+.navbar a {
+    color: white;
+}
+.navbar .nav-links ul{
+    display: flex;
+}
+.navbae .nav-links ul li{
+    margin: 0 25px;
 }
