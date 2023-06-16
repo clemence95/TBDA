@@ -14,19 +14,15 @@
 
 <body>
     <header>
-        <header>
-            <nav class="navbar -sm|-md|-lg|-xl">
-                <img class="logo" src="..\assets\img\logo_transparent.png">
-                <div class="nav-links {-sm|-md|-lg|-xl}">
-                    <ul>
-                        <li><a href="index.html">Accueil</a></li>
-                        <li><a href="catégorie.html">Catégorie</a></li>
-                        <li><a href="plats.html">Plats</a></li>
-                        <li><a href="contacte.html">Contacte</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+        <div class="container fixed top">
+            <div class="row align-items-center justify-content-around">
+                <div class="logo col-sm"><img class="logo" src="..\assets\img\logo_transparent.png"></div>
+                <div class="col-sm text-center"><a href="accueil.html">Accueil</a></div>
+                <div class="col-sm text-center"><a href="catégorie.html">Catégories</a></div>
+                <div class="col-sm text-center"><a href="plats.html">Plats</a></div>
+                <div class="col-sm text-center"><a href="contacte.html">Contacte</a></div>
+            </div>
+        </div>
     </header>
     <div id="fond">
         <input placeholder="Votre recherche" id="search" type="search">
