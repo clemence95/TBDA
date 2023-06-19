@@ -2,30 +2,25 @@ header {
     display: flex;
     height: 200px;
     width: 100%;
-    font-family: 'Dancing Script'!important; 
+    font-family: 'Dancing Script' !important;
 }
 
 .logo {
     width: auto;
     height: 200px;
 }
+
 nav a {
     padding: 90px;
     font-size: 16pt;
-    color:brown;
 }
+
 a:hover {
     color: rgb(167, 113, 14);
 }
 
-#fond {
-    background-image: url(../assets/img/bg2.jpeg);
-    background-size: cover;
-    height: 200px;
-}
-
 #search {
-    height: 10%;
+    height: 25%;
     margin: 100px;
     box-sizing: border-box;
     width: 20%;
