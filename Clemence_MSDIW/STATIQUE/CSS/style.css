@@ -1,13 +1,21 @@
 *{
     font-family: 'Dancing Script' !important;
-    color: brown !important;
+    color:rgb(228, 138, 28)!important;
     font-size: 30px;
+    text-decoration: none;
 }
-.container{
+header{
+    display:block;
+}
+.navbar{
 background-image:url(../assets/img/bg3.jpeg);
 background-repeat: no-repeat;
 background-size: cover;
+width: 100%;
 }
 a:hover{
-    color: rgb(167, 113, 14)!important;
+     color: rgb(192, 49, 13)!important; 
+}
+.video-recherche{
+    width: 100%;
 }
