@@ -4,9 +4,9 @@
     font-size: 30px;
     text-decoration: none;
 }
-header{
-    display:block;;
-}
+ header{
+    display:block;
+} 
 .navbar{
 background-image:url(../assets/img/bg3.jpeg);
 background-repeat: no-repeat;
