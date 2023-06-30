@@ -106,7 +106,7 @@
  h1 {
    font-weight: bold;
    grid-column-start: 2;
-   grid-row-start: 1;
+   grid-row-start: 2;
  }
 
  #asia {
@@ -116,7 +116,7 @@
 
  #burger {
    grid-column-start: 2;
-   grid-row-start: 2;
+   grid-row-start: 3;
  }
 
  #pasta {
@@ -146,13 +146,13 @@
  }
 
  #burger2 {
-   grid-column-start: 2;
-   grid-row-start: 3;
+   grid-column-start: 3;
+   grid-row-start: 2;
  }
 
  #pizza2 {
-   grid-column-start: 2;
-   grid-row-start: 4;
+   grid-column-start: 1;
+   grid-row-start: 2;
  }
 
  .footer {
@@ -160,7 +160,6 @@
    padding: 20px 0;
    position: absolute;
    width: 100%;
-   position
  }
 
  .footer ul {
