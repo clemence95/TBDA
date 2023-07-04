@@ -33,54 +33,57 @@
       </div>
     </div>
   </header>
-  <div class="container-fluid">
-    <form>
-      <div class="col-md-4 mb-4">
-        <input type="text" class="form-control" placeholder="Prénom" aria-label="prenom" id="text">
+  <form class=" row g-3 needs-validation" novalidate>
+    <div class="col-md-4 mb-4">
+      <input type="text" class="form-control" placeholder="Prénom" aria-label="prenom" id="validationCustom01" required>
+      <div class="invalid-feedback">
+        Vous devez saisir votre Prénom
       </div>
-      <div class="col-md-4">
-        <input type="text" class="form-control" placeholder="Nom" aria-label="nom" id="text2">
+    </div>
+    <div class="col-md-4 ">
+      <input type="text" class="form-control" placeholder="Nom" aria-label="nom" id="validationCustom02" required>
+      <div class="invalid-feedback">
+        Vous devez saisir votre Nom
       </div>
-      <div class="col-md-6">
-        <label for="inputEmail4" class="form-label"></label>
-        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label"></label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+      <div class="invalid-feedback">
+        Saisir une adresse email valide
       </div>
-      <div class="col-md-7">
-        <label for="inputAddress" class="form-label"></label>
-        <input type="text" class="form-control" id="inputAddress" placeholder="Adresse">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label"></label>
+      <input type="tel" class="form-control" placeholder="Téléphone" id="exampleInputPassword1" required>
+      <div class="invalid-feedback">
+        Saisir votre numéro de téléphone
       </div>
-      <div class="col-md-6">
-        <label for="inputCity" class="form-label"></label>
-        <input type="text" class="form-control" id="inputCity" placeholder="Ville">
-      </div>
-      <div class="col-md-6 mb-4">
-        <label for="inputZip" class="form-label"></label>
-        <input type="text" class="form-control" id="inputZip" placeholder="Code Postal">
-      </div>
-      <div class="col-md-6 mb-4">
-        <textarea class="form-control" placeholder="Votre demande" id="floatingTextarea2"
-          style="height: 100px"></textarea>
-        <label for="floatingTextarea2"></label>
-      </div>
-      <div class="col-md-4">
-        <button type="submit" class="btn btn-primary" id="valide">Valider</button>
-      </div>
-    </form>
-<footer>
-  <div class="footer">
-    <ul class="list-inline text-center">
-      <li class="list-inline-item">
-        <a href="#"><i class="bi bi-facebook"></i></a>
-      </li>
-      <li class="list-inline-item">
-        <a href="#"><i class="bi bi-geo-alt"></i></a>
-      </li>
-      <li class="list-inline-item">
-        <a href="#"><i class="bi bi-instagram"></i></a>
-      </li>
-    </ul>
-  </div>
-</footer>
+    </div>
+    <div class="col-md-10">
+      <textarea class="form-control" placeholder="Votre demande" id="floatingTextarea2"
+        style="height: 100px" required></textarea>
+    </div>
+    <div class="col-md-10">
+      <button type="submit" class="btn btn-primary" id="valide">Valider</button>
+    </div>
+  </form>
+  <footer>
+    <div class="footer">
+      <ul class="list-inline text-center">
+        <li class="list-inline-item">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#"><i class="bi bi-geo-alt"></i></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#"><i class="bi bi-instagram"></i></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="../../FRONT/DYNAMIQUE/JAVASCRIPT/script.js"></script>
 </body>
 
 </html>
