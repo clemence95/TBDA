@@ -6,36 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/style1.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap" rel="stylesheet">
     <title>TheDistrict</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm  bg-transparent">
-            <div class="row align-items-center justify-content-around">
-                <div id="nav-items" class="logo col-sm"><img class="logo" src="..\assets\img\logo_transparent.png"
-                        width="100" height="100"></div>
-                <div id="nav-items" class="col-sm text-center"><a href="accueil.html">Accueil</a></div>
-                <div id="nav-items" class="col-sm text-center"><a href="catégorie.html">Catégories</a></div>
-                <div id="nav-items" class="col-sm text-center"><a href="plats.html">Plats</a></div>
-                <div id="nav-items" class="col-sm text-center"><a href="contacte.html">Contacte</a></div>
+    <header class="container-fluid">
+        <div class="row d-flex align-items-center">
+            <nav class="navbar d-flex">
+                <a href="#" class="navbar-logo"><img src="../assets/img/logo_transparent.png" width="120"
+                        height="100"></a>
+                <div class="navbar-right align-items-center">
+                    <a href="#">Accueil</a>
+                    <a href="#">Catégories</a>
+                    <a href="#">Plats</a>
+                    <a href="#">Contacte</a>
+                </div>
+                <div class="col-md-1"><input placeholder="Votre recherche" id="search" type="search"></div>
+            </nav>
+            <div class="video container-fluid">
+                <video autoplay loop muted id="video-bg">
+                    <source src="../assets/pizza_-_123629 (540p).mp4" type="video/mp4">
+                </video>
             </div>
-        </nav>
+        </div>
     </header>
-    <div class="container row">
-        <video controls autoplay>
-            <source src="../assets/pizza_-_123629 (540p).mp4" type="video/mp4">
-            <div class="col-1"><input placeholder="Votre recherche" id="search" type="search"></div>
-        </video>
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-            </script>
-        </script>
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer">
+            <ul class="list-inline text-center">
+                <li class="list-inline-item">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#"><i class="bi bi-geo-alt"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
