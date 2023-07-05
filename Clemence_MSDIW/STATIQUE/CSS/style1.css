@@ -77,9 +77,12 @@
 
   .container-fluid {
    color: aliceblue;
-   font-size: 150px;
+   display: grid;
+   /* font-size: 150px; */
  } 
-
+p{
+  color: aliceblue;
+}
  .container {
    height: 100%;
    padding-bottom: 100px;
