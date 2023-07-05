@@ -3,12 +3,6 @@
    font-size: 20px;
  }
 
- html,
- body {
-   margin: 0;
-   padding: 0;
- }
-
  header {
    height: 100%;
    width: 100%;
@@ -16,8 +10,7 @@
 
  .navbar {
    justify-content: space-evenly;
-   padding-top: 30px;
-   padding-bottom: 30px;
+    padding-top: 10px; 
    top: 0;
    width: 100%;
    z-index: 1;
@@ -38,6 +31,7 @@
  }
 
  .navbar-logo {
+  width: 120;
    padding-left: 10%;
    font-weight: bold;
    text-decoration: none;
@@ -45,14 +39,13 @@
  }
 
  .video {
-   border-radius: 10% 30% 50% 80%;
+   border-radius: 10% 30% 50% 50%;
    z-index: -100;
    width: 100%;
-   height: 20%;
+   height: 150px;
    overflow: hidden;
    position: absolute;
-   top: 0;
-   left: 0;
+   left: 0; 
  }
 
  #video-bg {
@@ -70,22 +63,18 @@
    position: relative;
  }
 
- .container-fluid img {
-   width: 130px;
-   height: 130px;
+  .container-fluid img {
+   width: 180px;
+   height: 180px;
+ } 
+
+ .container-fluid {
+   color: aliceblue;
+   padding-bottom: 100px;
  }
 
-  .container-fluid {
+ p {
    color: aliceblue;
-   display: grid;
-   /* font-size: 150px; */
- } 
-p{
-  color: aliceblue;
-}
- .container {
-   height: 100%;
-   padding-bottom: 100px;
  }
 
  form {
@@ -93,8 +82,8 @@ p{
    font-size: 20px;
    min-height: 100%;
    position: relative;
-   padding-bottom: 100px;
-   margin-top: 100px;
+   padding-bottom: 150px;
+   justify-content: center;
 
  }
 
@@ -108,8 +97,8 @@ p{
    background-color: #f8f9fa;
    position: absolute;
    width: 100%;
-   bottom: 0;
-   height: 100px;
+   /* bottom: 0; */
+   /* height: 100px; */
  }
 
  .footer ul li a {
