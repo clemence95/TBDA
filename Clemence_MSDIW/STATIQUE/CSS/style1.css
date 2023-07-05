@@ -64,19 +64,24 @@
  }
 
   .container-fluid img {
-   width: 180px;
-   height: 180px;
+    width: 180px;
+   height: 180px; 
+   object-fit:contain;
  } 
-
+#boite{
+  width: 180px;
+  height: 220px;
+  justify-content: center;
+  background-color: bisque;
+}
  .container-fluid {
    color: aliceblue;
    padding-bottom: 100px;
  }
 
  p {
-   color: aliceblue;
+   color: black;
  }
-
  form {
    color: aliceblue;
    font-size: 20px;
@@ -97,13 +102,14 @@
    background-color: #f8f9fa;
    position: absolute;
    width: 100%;
-   /* bottom: 0; */
-   /* height: 100px; */
+    bottom: 0; 
+    height: 100px;
  }
 
  .footer ul li a {
    color: #212529;
    font-size: 30px;
+   bottom: 0;
  }
 
  .footer ul li a:hover {
