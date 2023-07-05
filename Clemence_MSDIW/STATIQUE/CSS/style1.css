@@ -70,99 +70,18 @@
    position: relative;
  }
 
- #grid-catégories img {
+ .container-fluid img {
    width: 130px;
    height: 130px;
  }
 
- #grid-plats img {
-   width: 130px;
-   height: 130px;
- }
-
- #grid-catégories {
-   font-weight: bold;
-   justify-content: center;
-   align-items: center;
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   grid-template-rows: repeat(3, 1fr);
-   grid-column-gap: 10px;
+  .container-fluid {
    color: aliceblue;
-   justify-items: center;
- }
-
- #grid-plats {
-   font-weight: bold;
-   justify-content: center;
-   align-items: center;
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   grid-template-rows: repeat(3, 1fr);
-   color: aliceblue;
-   justify-items: center;
- }
-
- p {
-   color: aliceblue;
-   font-size: 25px;
- }
-
- h1 {
-   font-weight: bold;
-   grid-column-start: 2;
-   grid-row-start: 2;
- }
-
- #asia {
-   grid-column-start: 1;
-   grid-row-start: 2;
- }
-
- #burger {
-   grid-column-start: 2;
-   grid-row-start: 3;
- }
-
- #pasta {
-   grid-column-start: 3;
-   grid-row-start: 2;
- }
-
- #pizza {
-   grid-column-start: 3;
-   grid-row-start: 3;
- }
-
- #salade {
-   grid-column-start: 1;
-   grid-row-start: 3;
- }
-
- h2 {
-   font-weight: bold;
-   grid-column-start: 2;
-   grid-row-start: 1;
- }
-
- #maki {
-   grid-column-start: 2;
-   grid-row-start: 2;
- }
-
- #burger2 {
-   grid-column-start: 3;
-   grid-row-start: 2;
- }
-
- #pizza2 {
-   grid-column-start: 1;
-   grid-row-start: 2;
- }
+   font-size: 150px;
+ } 
 
  .container {
    height: 100%;
-   display: grid;
    padding-bottom: 100px;
  }
 
@@ -175,9 +94,10 @@
    margin-top: 100px;
 
  }
- .invalid-feedback{
-  font-size: 20px;
-  font-weight: bold;
+
+ .invalid-feedback {
+   font-size: 20px;
+   font-weight: bold;
    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(0, 0, 0);
  }
 
