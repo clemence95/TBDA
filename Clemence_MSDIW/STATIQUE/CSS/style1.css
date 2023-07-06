@@ -62,17 +62,20 @@
    background-attachment: fixed;
    position: relative;
  }
-
-  .container-fluid img {
-    width: 180px;
-   height: 180px; 
-   object-fit:contain;
- } 
+  
 #boite{
-  width: 180px;
-  height: 220px;
+  width: 200px;
+  height: 100%;
   justify-content: center;
-  background-color: bisque;
+  background-color: rgb(197, 188, 171,0.5);
+}
+#boite-img{
+height: 150px;
+width: 150px;
+object-fit:contain; 
+}
+.container-fluid img:hover{
+  transform: rotate(5deg);
 }
  .container-fluid {
    color: aliceblue;
@@ -80,7 +83,9 @@
  }
 
  p {
-   color: black;
+   color: rgb(170, 87, 87);
+   font-size: 25px;
+   font-weight: bold;
  }
  form {
    color: aliceblue;
