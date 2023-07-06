@@ -120,8 +120,10 @@ object-fit:contain;
    color: #212529;
    font-size: 30px;
    bottom: 0;
+   width: 100%;
  }
 
  .footer ul li a:hover {
    color: rgb(172, 97, 97);
+   width: 100%;
  }
