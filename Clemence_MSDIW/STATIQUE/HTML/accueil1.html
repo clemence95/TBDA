@@ -16,8 +16,8 @@
     <header class="container overflow-hidden">
         <div class="row d-flex align-items-center">
             <nav class="navbar d-flex">
-                <a href="#" class="navbar-logo"><img class="img-fluid" src="../assets/img/logo_transparent.png" width="120"
-                        height="100"></a>
+                <a href="#" class="navbar-logo"><img class="img-fluid" id="img-logo" alt="img-logo"
+                        src="../assets/img/logo_transparent.png"></a>
                 <div class="navbar-right align-items-center">
                     <a href="#">Accueil</a>
                     <a href="#">Catégories</a>
@@ -28,82 +28,86 @@
             </nav>
             <div class="video container-fluid">
                 <video autoplay loop muted id="video-bg">
-                    <source src="../assets/pizza_-_123629 (540p).mp4" type="video/mp4">
+                    <source src="../assets/pizza-fond.mp4">
                 </video>
             </div>
         </div>
     </header>
-
-    <body>
-        <div class="container-fluid">
-            <div class="row text-center justify-content-center">
-                <div class="col-sm-6 text-center" id="boite"><p>Catégories</p></div>
-            </div>
-            <div class="row text-center justify-content-center">
-                <div class="col-md-3" id="boite"><a href="#"><img class="img-fluid" id="boite-img" src="../assets/img/asian_food_cat.jpg">
-                        <p class="text-asian">Asiatique</p>
-                    </a>
-                </div>
-                <div class="col-md-3" id="boite"><a href="burger.html"><img class="img-fluid" id="boite-img" src="../assets/img/burger.jpg">
-                        <p class="text-burger">Burger</p>
-                    </a>
-                </div>
-            </div>
-            <div class="row text-center justify-content-center">
-                <div class="col-md-2" id="boite">
-                    <a href="pasta.html"><img class="img-fluid" id="boite-img" src="../assets/img/pasta_cat.jpg">
-                        <p class="text-pasta">Pasta</p>
-                    </a>
-                </div>
-                <div class="col-md-2" id="boite">
-                    <a href="pizza.html"><img class="img-fluid" id="boite-img" src="../assets/img/pizza.jpg">
-                        <p class="text-pizza">Pizza</p>
-                    </a>
-                </div>
-                <div class="col-md-2" id="boite">
-                    <a href="salade.html"><img class="img-fluid" id="boite-img" src="../assets/img/salade_cat.jpg">
-                        <p class="text-asian">Salade</p>
-                    </a>
-                </div>
+    <div class="container-fluid grille">
+        <div class="row text-center justify-content-center">
+            <div class="col-sm-6 text-center boite">
+                <p>Catégories</p>
             </div>
         </div>
-        <div class="container-fluid justify-content-center">
-            <div class="row text-center justify-content-center">
-                <div class="col-md-12" id="boite"><p>Plats</p></div>
+        <div class="row text-center justify-content-center">
+            <div class="col-md-3 boite"><a href="#"><img class="img-fluid boite-img" alt="Asia"
+                        src="../assets/img/asian_food_cat.jpg">
+                    <p class="text-asian">Asiatique</p>
+                </a>
             </div>
-            <div class="row text-center justify-content-center">
-                <div class="col-md-4" id="boite">
-                    <a href="asian.html"><img class="img-fluid" id="boite-img" src="../assets/img/53_MQGWWFCAA400CKDU.jpg">
-                        <p class="text-maki">Maki</p>
-                    </a>
-                </div>
-                <div class="col-md-4" id="boite">
-                    <a href="burger.html"><img id="boite-img" class="img-fluid" src="../assets/img/cheesburger.jpg">
-                        <p class="text-cheese-burger">cheese-burger</p>
-                    </a>
-                </div>
-                <div class="col-md-4" id="boite">
-                    <a href="pizza.html"><img class="img-fluid" id="boite-img" src="../assets/img/Food-Name-8298.jpg">
-                        <p class="pizza-veggie">pizza-veggie</p>
-                    </a>
-                </div>
+            <div class="col-md-3 boite"><a href="burger.html"><img class="img-fluid boite-img" alt="Burger"
+                        src="../assets/img/burger.jpg">
+                    <p class="text-burger">Burger</p>
+                </a>
             </div>
         </div>
-        <footer>
-            <div class="footer">
-                <ul class="list-inline text-center">
-                    <li class="list-inline-item">
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#"><i class="bi bi-geo-alt"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#"><i class="bi bi-instagram"></i></a>
-                    </li>
-                </ul>
+        <div class="row text-center justify-content-center">
+            <div class="col-md-2 boite">
+                <a href="pasta.html"><img class="img-fluid boite-img" src="../assets/img/pasta_cat.jpg" alt="Pasta">
+                    <p class="text-pasta">Pasta</p>
+                </a>
             </div>
-        </footer>
-    </body>
+            <div class="col-md-2 boite">
+                <a href="pizza.html"><img class="img-fluid boite-img" src="../assets/img/pizza.jpg" alt="Pizza">
+                    <p class="text-pizza">Pizza</p>
+                </a>
+            </div>
+            <div class="col-md-2 boite">
+                <a href="salade.html"><img class="img-fluid boite-img" src="../assets/img/salade_cat.jpg" alt="Salade">
+                    <p class="text-asian">Salade</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid justify-content-center grille">
+        <div class="row text-center justify-content-center">
+            <div class="col-md-12 boite">
+                <p>Plats</p>
+            </div>
+        </div>
+        <div class="row text-center justify-content-center">
+            <div class="col-md-4 boite">
+                <a href="asian.html"><img class="img-fluid boite-img" src="../assets/img/53_MQGWWFCAA400CKDU.jpg" alt="Maki">
+                    <p class="text-maki">Maki</p>
+                </a>
+            </div>
+            <div class="col-md-4 boite">
+                <a href="burger.html"><img class="img-fluid boite-img" src="../assets/img/cheesburger.jpg" alt="cheese-burger">
+                    <p class="text-cheese-burger">cheese-burger</p>
+                </a>
+            </div>
+            <div class="col-md-4 boite">
+                <a href="pizza.html"><img class="img-fluid boite-img" src="../assets/img/Food-Name-8298.jpg" alt="pizza-veggie">
+                    <p class="pizza-veggie">pizza-veggie</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <ul class="list-inline text-center">
+                <li class="list-inline-item">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#"><i class="bi bi-geo-alt"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
 
 </html>

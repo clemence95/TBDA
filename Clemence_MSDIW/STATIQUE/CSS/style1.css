@@ -29,7 +29,10 @@
  .navbar-right a:hover {
    text-decoration: underline;
  }
-
+#img-logo{
+  width: 100px;
+  height: 100px;
+}
  .navbar-logo {
   width: 120;
    padding-left: 10%;
@@ -63,23 +66,24 @@
    position: relative;
  }
   
-#boite{
+.boite{
   width: 200px;
   height: 100%;
   justify-content: center;
   background-color: rgb(197, 188, 171,0.5);
 }
-#boite-img{
+.boite-img{
 height: 150px;
 width: 150px;
 object-fit:contain; 
 }
-.container-fluid img:hover{
+.grille img:hover{
   transform: rotate(5deg);
 }
- .container-fluid {
+ .grille {
    color: aliceblue;
-   padding-bottom: 100px;
+   padding-bottom: 200px;
+   padding-top: 150px;
  }
 
  p {
@@ -93,6 +97,7 @@ object-fit:contain;
    min-height: 100%;
    position: relative;
    padding-bottom: 150px;
+   padding-top: 150px;
    justify-content: center;
 
  }
