@@ -114,14 +114,21 @@
    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(0, 0, 0);
  }
 
-  #carouselExampleControls {
-   padding-bottom: 150px;
-   padding-left: 150px; 
- } 
-.bouton{
-  width: 100px;
-  height: 100px;
-}
+ /* .carousel-item img {
+   height: 300px;
+   width: 300px;
+   object-fit: cover;
+ } */
+ @media screen and (min-width:576){
+  .carousel-inner{
+    display: flex;
+  }
+  .carousel-item{
+    display: block;
+    margin-right: 0;
+    flex: 0 0 calc(100%/3);
+  }
+ }
 
  footer {
    background-color: #f8f9fa;
@@ -142,6 +149,3 @@
    color: rgb(172, 97, 97);
    width: 100%;
  }
- .carousel-item {
-  min-height: 200px; /* Ajustez la hauteur des éléments selon vos besoins */
-}
