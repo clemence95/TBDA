@@ -114,13 +114,14 @@
    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(0, 0, 0);
  }
 
- #carouselExampleControls {
+  #carouselExampleControls {
    padding-bottom: 150px;
- }
-/* .carousel-inner{
-  height: 300px;
-  width: 200px;
-} */
+   padding-left: 150px; 
+ } 
+.bouton{
+  width: 100px;
+  height: 100px;
+}
 
  footer {
    background-color: #f8f9fa;
@@ -141,3 +142,6 @@
    color: rgb(172, 97, 97);
    width: 100%;
  }
+ .carousel-item {
+  min-height: 200px; /* Ajustez la hauteur des éléments selon vos besoins */
+}

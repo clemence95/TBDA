@@ -20,8 +20,9 @@
     })
 })()
 
-var myCarousel = document.querySelector('#myCarousel')
-var carousel = new bootstrap.Carousel(myCarousel{
-  interval: 2000,
-  wrap: false
-})
+// $(document).ready(function() {
+//   $('.carousel').carousel({
+//     interval: 2000, // Définissez l'intervalle de défilement entre les slides (en millisecondes)
+//     wrap: true // Activez la répétition indéfinie
+//   });
+// });
