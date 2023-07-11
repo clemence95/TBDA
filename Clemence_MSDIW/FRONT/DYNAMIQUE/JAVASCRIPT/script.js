@@ -20,9 +20,3 @@
     })
 })()
 
-// $(document).ready(function() {
-//   $('.carousel').carousel({
-//     interval: 2000, // Définissez l'intervalle de défilement entre les slides (en millisecondes)
-//     wrap: true // Activez la répétition indéfinie
-//   });
-// });
