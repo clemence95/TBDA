@@ -108,6 +108,17 @@
 
  }
 
+ .card { background-color: rgba(245, 245, 245, 0.4); }
+ .carousel-inner{
+  padding-bottom: 150px;
+  /* width: 16rem; */
+  height: auto;
+ }
+ /* .carousel-item{
+   flex-wrap: nowrap; 
+   padding-bottom: 150px; 
+ } */
+
  .invalid-feedback {
    font-size: 20px;
    font-weight: bold;
