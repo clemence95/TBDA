@@ -11,4 +11,20 @@ console.log('connecté !');
 let titre = document.getElementById('titre');
 titre.style.color = "green";
 titre = 2;
-console.log(titre); // renvoie 2 // 
+console.log(titre); // renvoie 2 //  
+
+let score = 0 // Je stocke un nombre
+console.log(score, 'initialisation'); // je verifie
+score = score + 1 // opération 
+console.log(score, 'après addition'); // je vérifie
+
+// Je stocke une chaine de caractère 
+const cours = 'Javascript';
+// Je verifie
+console.log(cours, 'cours');
+
+// Je concatène 
+const mot1 = 'Hello';
+const mot2 = 'World !';
+const phrase = mot1 + '' + mot2 // Concaténation
+console.log(phrase,"phrase"); // Je verifie
