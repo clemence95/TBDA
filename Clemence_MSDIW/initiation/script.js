@@ -11,4 +11,4 @@ console.log('connecté !');
 let titre = document.getElementById('titre');
 titre.style.color = "green";
 titre = 2;
-console.log(titre);
+console.log(titre); // renvoie 2 // 
