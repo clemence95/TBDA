@@ -1,0 +1,28 @@
+/* "*" Selecteur universel */
+* {
+    margin: 0;
+    /*Supprime les marge */
+    padding: 0;
+    /* interne et externe */
+    box-sizing: border-box;
+    /* box-sizing permet de maintenir les dimensions d'un DIV malgré un padding */
+    text-decoration: none;
+    /* supprime le soulignement des liens */
+}
+html{
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+body{
+    font-size: 1.4rem;
+    /* soit 14px */ 
+    font-family: Arial;
+    color:white;
+}
+ .container{
+    height: 100vh;
+    background-color: black;
+} 
+h1 {
+    color: red;
+}
