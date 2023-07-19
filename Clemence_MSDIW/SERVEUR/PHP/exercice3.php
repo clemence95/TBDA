@@ -304,7 +304,7 @@
         "Vilnius" => "Lituanie",
         "Zagreb" => "Croatie"
     );
-
+echo "<br>";
     foreach ($capitales as $capitale => $pays) {    //examine chaque élément du tableau.
         if (substr($capitale, 0, 1) !== 'B') {      //qui extrait une sous-chaîne de caractères
             unset($capitales[$capitale]);           //est utilisée pour supprimer l'élément correspondant du tableau
@@ -315,7 +315,20 @@
         echo "$capitale : $pays <br>";  //affiche la capitale suivie du pays correspondant
     }
 
-
+    $departements = array(
+        "Hauts-de-france" => array("Aisne", "Nord", "Oise", "Pas-de-Calais", "Somme"),
+        "Bretagne" => array("Côtes d'Armor", "Finistère", "Ille-et-Vilaine", "Morbihan"),
+        "Grand-Est" => array("Ardennes", "Aube", "Marne", "Haute-Marne", "Meurthe-et-Moselle", "Meuse", "Moselle", "Bas-Rhin", "Haut-Rhin", "Vosges"),
+        "Normandie" => array("Calvados", "Eure", "Manche", "Orne", "Seine-Maritime")
+    );
+    
+    ksort($departements); // Trie les régions par ordre alphabétique des clés (noms de région)
+    
+    foreach ($departements as $region => $departement_list) {
+        echo $region . " : " . implode(", ", $departement_list) . "<br>";
+    }
+    
+    
     ?>
 
 </body>

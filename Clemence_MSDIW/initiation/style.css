@@ -26,3 +26,15 @@ body{
 h1 {
     color: red;
 }
+#btn-red{
+    /* background-color: red; */
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+#btn-blue{
+    /* background-color: blue; */
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
