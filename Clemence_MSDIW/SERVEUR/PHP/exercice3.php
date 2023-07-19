@@ -245,7 +245,7 @@
     echo "<br>";
     
     $capitales = array(
-        "Bucarest" => "Roumanie",
+        "Bucarest" => "Roumanie", 
         "Bruxelles" => "Belgique",
         "Oslo" => "Norvège",
         "Ottawa" => "Canada",
@@ -315,7 +315,7 @@ echo "<br>";
         echo "$capitale : $pays <br>";  //affiche la capitale suivie du pays correspondant
     }
 
-    $departements = array(
+    $departements = array( 
         "Hauts-de-france" => array("Aisne", "Nord", "Oise", "Pas-de-Calais", "Somme"),
         "Bretagne" => array("Côtes d'Armor", "Finistère", "Ille-et-Vilaine", "Morbihan"),
         "Grand-Est" => array("Ardennes", "Aube", "Marne", "Haute-Marne", "Meurthe-et-Moselle", "Meuse", "Moselle", "Bas-Rhin", "Haut-Rhin", "Vosges"),
