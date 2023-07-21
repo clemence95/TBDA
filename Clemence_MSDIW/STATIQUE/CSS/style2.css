@@ -10,7 +10,7 @@
 }
 .cc-navbar .nav-link:hover{  /*effet de la trasition*/
  padding-bottom: 20px;
- border-bottom-color: var(--bs-teal); /* couleur de boots */
+  border-bottom-color: var(--bs-teal); /* couleur de boots qui color la barre de la box du bas */
 }
 .cc-navbar{
     background-color: rgb(0, 0, 0, .55);
