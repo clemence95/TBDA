@@ -1,5 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2? family= Lugrasimo & display=swap'); */
 /* le plus gros du travail est fait par Boots */
+/* Navbar */
 *{
     font-family: 'Lugrasimo', sans-serif !important;
 }
@@ -27,4 +28,5 @@ color: white;
 background-color: var(--bs-teal);
 
 }
+/* Fin de navbar */
  
