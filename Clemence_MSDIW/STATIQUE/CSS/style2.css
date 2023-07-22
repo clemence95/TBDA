@@ -1,6 +1,9 @@
 /* @import url('https://fonts.googleapis.com/css2? family= Lugrasimo & display=swap'); */
 /* le plus gros du travail est fait par Boots */
 /* Navbar */
+.dancing{
+    font-family: 'Dancing Script' !important;
+}
 *{
     font-family: 'Lugrasimo', sans-serif !important;
 }
@@ -29,4 +32,17 @@ background-color: var(--bs-teal);
 
 }
 /* Fin de navbar */
- 
+
+/*Video*/
+.banner{
+    background: li ;
+}
+.myVideo{
+    position: fixed;
+     border-radius: 10% 30% 50% 50%;
+   z-index: -100;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
