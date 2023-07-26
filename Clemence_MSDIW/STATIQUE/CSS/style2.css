@@ -5,7 +5,9 @@
     font-family: 'Dancing Script' !important;
     color: white;
 }
-
+.Lugrasino{
+    font-family: 'Lugrasimo', sans-serif !important;
+}
 * {
     font-family: 'Lugrasimo', sans-serif !important;
 }
@@ -28,7 +30,7 @@
     font-family: serif;
     box-shadow: 1px 1px 3px rgba(255, 255, 255, .54);
     /* padding-top: 0; */
-    /* z-index: 1; */
+     z-index: 99; 
 }
 
 .btn-order {
