@@ -1,81 +1,143 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
+
 <head>
-    <style>
-        body, html {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-
-        .banner {
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-
-        .video-container {
-            position: relative;
-            padding-bottom: 56.25%; /* 16:9 aspect ratio, adjust as needed */
-            height: 0;
-            overflow: hidden;
-        }
-
-        .video {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-
-        .dancing {
-            /* Vos styles pour la classe .dancing */
-            /* Exemple : font-family: 'Arial', sans-serif; */
-        }
-
-        .banner-desc {
-            /* Vos styles pour la classe .banner-desc */
-        }
-
-        .btn-order {
-            /* Vos styles pour la classe .btn-order */
-        }
-
-        .btn-outline-info {
-            /* Vos styles pour la classe .btn-outline-info */
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrousel boostrap 5 </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
+
 <body>
 
-    <section class="banner d-flex pt-5">
-        <div class="container-fluid my-5 py-4 d-flex justify-content-center">
-            <div class="row">
-                <div class="video-container">
-                    <video id="myVideo" class="d-block video" autoplay muted controls loop>
-                        <source src="../assets/pizza-fond.mp4" type="video/mp4">
-                        Votre navigateur ne prend pas en charge la lecture de vidéos HTML5.
-                    </video>
-                </div>
-                <div class="col-md-12">
-                    <h1 class="text-center dancing">The Destrict</h1>
-                </div>
-                <div class="col-md-6">
-                    <p class="text-capitalize banner-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit
-                        Vitae
-                        officiis
-                        accusamus laborum?</p><br>
-                    <p>
-                        <button class="btn btn-order btn-lg me-5 dancing">Commander maintenant</button>
-                        <button class="btn btn-outline-info dancing">Réserver</button>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
 
+    <!-- Les indicateurs (slide actif) du carousel -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+    </div>
+
+    <!-- Les slides du carousel -->
+    <div class="carousel-inner">
+
+      <!-- Slide 1 (slide actif) -->
+      <div class="carousel-item active d-flex">
+
+        <!-- La row -->
+        <div class="row">
+
+          <!-- Les colonnes responsives : N colonnes -->
+          <div class="col-md-3 col-sm-3 col-3 d-md-block">
+            <div class="card align-items-center">
+              <img src="../assets/img/pizza.jpg" class="card-img-top" style="width: 12rem;" alt="Pizza">
+              <div class="card-text">
+                <div class="carousel-caption d-none d-md-block">
+                  <a href="#">
+                    <h5>Pizza</h5>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-6 d-md-block">
+            <div class="card align-items-center">
+              <img src="../assets/img/salade_cat.jpg" class="card-img-top" style="width: 10rem;" alt="Salade">
+              <div class="card-text">
+                <div class="carousel-caption d-none d-md-block">
+                  <a href="#">
+                    <h5>Salade</h5>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-6">
+            <div class="card align-items-center">
+              <img src="../assets/img/asian_food_cat.jpg" class="img-fluid" style="width: 12rem;" alt="Asia">
+              <div class="carousel-caption d-none d-md-block">
+                <div class="card-text">
+                  <a class="#">
+                    <h5>Asia</h5>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-6">
+            <div class="card align-items-center">
+              <img src="../assets/img/burger.jpg" class="img-fluid" style="width: 12rem;" alt="burger">
+              <div class="carousel-caption d-none d-md-block">
+                <div class="card-text">
+                  <a class="#">
+                    <h5>Burger</h5>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="col-md-3 col-sm-6 col-6">
+          <div class="card align-items-center">
+            <img src="../assets/img/pasta_cat.jpg" class="img-fluid" style="width: 12rem;" alt="Pasta">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="card-text">
+                <a class="#">
+                  <h5>Pasta</h5>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-6">
+          <div class="card align-items-center">
+            <img src="../assets/img/Food-Name-8298.jpg" class="img-fluid" style="width: 12rem;" alt="Pizza-veggie">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="card-text">
+                <a class="#">
+                  <h5>Pizza-veggie</h5>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Les boutons suivant et pécédent -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <script src="../../FRONT/DYNAMIQUE/JAVASCRIPT/script.js"></script>
 </body>
+
 </html>
