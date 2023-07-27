@@ -90,8 +90,8 @@
 
 /* Sélecteur pour les images dans le carrousel */
 .carousel-inner img {
-    max-width: 100%;
-    /* Définir la largeur maximale à 100% */
-    height: auto;
-    /* Assurer un redimensionnement proportionnel */
+object-fit: cover;
+object-position: center;
+height: 50vh;
+overflow: hidden;
 }
