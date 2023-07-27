@@ -5,9 +5,11 @@
     font-family: 'Dancing Script' !important;
     color: white;
 }
-.Lugrasino{
+
+.Lugrasino {
     font-family: 'Lugrasimo', sans-serif !important;
 }
+
 * {
     font-family: 'Lugrasimo', sans-serif !important;
 }
@@ -30,7 +32,7 @@
     font-family: serif;
     box-shadow: 1px 1px 3px rgba(255, 255, 255, .54);
     /* padding-top: 0; */
-     z-index: 99; 
+    z-index: 99;
 }
 
 .btn-order {
@@ -52,7 +54,7 @@
     background-size: cover;
     width: 100%;
     height: 120vh;
-    padding-top: 150px; 
+    padding-top: 150px;
     background-attachment: fixed;
     position: relative;
     z-index: 1;
@@ -61,8 +63,8 @@
 
 .video-container {
     width: 100%;
-     max-width: 100%; 
-     height: 30vh; 
+    max-width: 100%;
+    height: 30vh;
     position: relative;
 }
 
@@ -71,6 +73,7 @@
     display: block;
     object-fit: cover;
 }
+
 .banner .banner-desc {
     font-size: 40px;
     font-weight: 400;
@@ -80,4 +83,15 @@
 .img-logo {
     width: 160px;
     height: 160px;
+}
+.carousel-inner{
+    object-fit: cover;
+}
+
+/* Sélecteur pour les images dans le carrousel */
+.carousel-inner img {
+    max-width: 100%;
+    /* Définir la largeur maximale à 100% */
+    height: auto;
+    /* Assurer un redimensionnement proportionnel */
 }
