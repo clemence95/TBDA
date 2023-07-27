@@ -84,9 +84,6 @@
     width: 160px;
     height: 160px;
 }
-.carousel-inner{
-    object-fit: cover;
-}
 
 /* Sélecteur pour les images dans le carrousel */
 .carousel-inner img {
