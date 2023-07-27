@@ -8,6 +8,8 @@
 
 .Lugrasino {
     font-family: 'Lugrasimo', sans-serif !important;
+    /* text-decoration: none;
+    font-size: 46px; */
 }
 
 * {
@@ -85,7 +87,22 @@
     height: 160px;
 }
 
-/* Sélecteur pour les images dans le carrousel */
+   .card{
+   border: none;
+}   
+.card img{
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+.carousel-inner{
+    max-width: 100%;
+    max-height: auto;
+}
+.Catégories {
+    align-items: center;
+    font-size: 36px;
+}
 .carousel-inner img {
 object-fit: cover;
 object-position: center;
