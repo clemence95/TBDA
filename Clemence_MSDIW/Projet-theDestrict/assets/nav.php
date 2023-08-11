@@ -1,4 +1,4 @@
-    <nav class="cc-navbar fixed-top navbar navbar-expand-lg navbar-dark md-3 w-100">
+<nav class="cc-navbar fixed-top navbar navbar-expand-lg navbar-dark md-3 w-100">
         <div class="container-fluid">
             <a class="navbar-brand text-uppercase mx-4 py-3" href="#">The Destrict</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
