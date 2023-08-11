@@ -1,6 +1,9 @@
 /* @import url('https://fonts.googleapis.com/css2? family= Lugrasimo & display=swap'); */
 /* le plus gros du travail est fait par Boots */
 /* Navbar */
+h1 {
+    color: aqua;
+}
 .dancing {
     font-family: 'Dancing Script' !important;
     color: white;
