@@ -48,7 +48,7 @@
                 <div class="card mb-3 border-0 ">
                     <div class="row align-items-center justify-content-center">
                         <div class="col-md-3">
-                            <img src="..\assets\img\salade_cat.jpg" class="img-fluid rounded-start" alt="Salade">
+                            <img src="/Clemence_MSDIW/Projet-theDistrict/assets/img-thedistrict/salade_cat.jpg" class="img-fluid rounded-start" alt="Salade">
                         </div>
                         <div class="col-md-3">
                             <div class="card-body">
@@ -76,7 +76,7 @@
                                     </div>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img src="..\assets\img\pizza.jpg" class="d-block w-100 img-fluid"
+                                            <img src="/Clemence_MSDIW/Projet-theDistrict/assets/img-thedistrict/pizza.jpg" class="d-block w-100 img-fluid"
                                                 alt="Pizza">
                                             <div class="carousel-caption d-md-block">
                                                 <a class="Lugrasimo" href="#">
@@ -85,7 +85,7 @@
                                             </div>
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="..\assets\img\pasta_cat.jpg" class="d-block w-100 img-fluid"
+                                            <img src="/Clemence_MSDIW/Projet-theDistrict/assets/img-thedistrict/pasta_cat.jpg" class="d-block w-100 img-fluid"
                                                 alt="Pasta">
                                             <div class="carousel-caption d-md-block">
                                                 <a class="Lugrasimo" href="#">
@@ -94,7 +94,7 @@
                                             </div>
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="..\assets\img\burger.jpg" class="d-block w-100 img-fluid"
+                                            <img src="/Clemence_MSDIW/Projet-theDistrict/assets/img-thedistrict/burger.jpg" class="d-block w-100 img-fluid"
                                                 alt="Burger">
                                             <div class="carousel-caption d-md-block">
                                                 <a class="Lugrasimo" href="#">
@@ -129,7 +129,7 @@
                                 </div>
                             </div>
                             <div class="col-md-3">
-                                <img src="..\assets\img\asian_food_cat.jpg" class="img-fluid rounded-start" alt="Asia">
+                                <img src="/Clemence_MSDIW/Projet-theDistrict/assets/img-thedistrict/asian_food_cat.jpg" class="img-fluid rounded-start" alt="Asia">
                             </div>
                         </div>
                     </div>
