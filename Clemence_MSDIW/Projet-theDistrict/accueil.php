@@ -15,7 +15,7 @@
 
 <body>
     <?php
-    include('/Clemence_MSDIW/Projet-theDestrict/assets/php/nav.php')
+    include('/Clemence_MSDIW/Projet-theDistrict/assets/php/nav.php')
     ?>
     <h1>TheDistrict</h1>
 </body>
