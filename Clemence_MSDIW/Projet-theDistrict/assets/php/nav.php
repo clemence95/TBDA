@@ -7,7 +7,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-3 mb-lg-0 sm-3">
                     <li class="nav-item pe-4">
-                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                        <a class="nav-link active" aria-current="page" href="./accueil.php">Accueil</a>
                     </li>
                     <li class="nav-item pe-4">
                         <a class="nav-link" href="#">Catégorie</a>
