@@ -1,0 +1,78 @@
+.dancing {
+    font-family: 'Dancing Script' !important;
+    color: white;
+}
+
+.Lugrasino {
+    font-family: 'Lugrasimo', sans-serif !important;
+    /* text-decoration: none;
+    font-size: 46px;  */
+}
+
+* {
+    font-family: 'Lugrasimo', sans-serif !important;
+}
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Clemence_MSDIW/Projet-theDistrict/assets/img-thedistrict/bg2.jpeg') center center fixed no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.cc-navbar .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+    /* evenement transition */
+}
+
+.cc-navbar .nav-link:hover {
+    /*effet de la trasition*/
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+    /* couleur de boots qui color la barre de la box du bas */
+}
+
+.cc-navbar {
+    background-color: rgb(0, 0, 0, .55);
+    font-family: serif;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, .54);
+    /* padding-top: 0; */
+    height: 100px;
+    z-index: 99;
+}
+
+.btn-order {
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: .5s;
+}
+
+.btn-order:hover,
+.btn-order:active {
+    color: white;
+    background-color: var(--bs-teal);
+
+}
+.banner {
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    position: relative;
+    overflow: hidden;
+    position: fixed;
+}
+.video-container {
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    z-index: -100;
+     /* z-order détermine l'ordre des différentes couches */
+}
+
+.video {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}

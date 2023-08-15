@@ -22,10 +22,6 @@
                         <a class="btn btn-order rounded-1" href="#">Passer la commande</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Recherche</button>
-                </form>
             </div>
         </div>
     </nav>
