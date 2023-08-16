@@ -1,5 +1,5 @@
 <section class="banner d-flex pt-5">
-    <div class="container-fluid my-5 py-4 d-flex justify-content-center align-items-baseline">
+    <div class="container-fluid my-5 py-4 d-flex justify-content-center align-items-center">
         <div class="row ">
             <div class=" video-container d-flex justify-content-center">
                 <video id="myVideo" class="d-block video rounded-5 " autoplay muted loop>
