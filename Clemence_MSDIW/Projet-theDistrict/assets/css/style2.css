@@ -1,6 +1,17 @@
+/* @import url('https://fonts.googleapis.com/css2? family= Lugrasimo & display=swap'); */
+/* le plus gros du travail est fait par Boots */
+/* Navbar */
 .dancing {
     font-family: 'Dancing Script' !important;
     color: white;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Clemence_MSDIW/Projet-theDistrict/assets/img-thedistrict/bg2.jpeg') center center fixed no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    background-size: cover;
 }
 
 .Lugrasino {
@@ -11,12 +22,6 @@
 
 * {
     font-family: 'Lugrasimo', sans-serif !important;
-}
-body{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Clemence_MSDIW/Projet-theDistrict/assets/img-thedistrict/bg2.jpeg') center center fixed no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: 1;
 }
 
 .cc-navbar .nav-link {
@@ -53,19 +58,28 @@ body{
     background-color: var(--bs-teal);
 
 }
-.banner {
+
+/* Fin de navbar */
+/* .banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Clemence_MSDIW/Projet-theDistrict/assets/img-thedistrict/bg2.jpeg') center center fixed no-repeat;
+    background-size: cover;
     width: 100%;
+    height: 100%;
     padding-top: 100px;
+    background-attachment: fixed;
     position: relative;
-}
+    z-index: 1;
+    /* z-order détermine l'ordre des différentes couches
+ } */
+
+
 .video-container {
     width: 100%;
+    max-width: 100%;
     height: 30vh;
+    position: relative;
     overflow: hidden;
-    position: fixed;
-    right: 0;
-    z-index: -100;
-     /* z-order détermine l'ordre des différentes couches */
+    object-fit: cover;
 }
 
 .video {
@@ -73,10 +87,90 @@ body{
     display: block;
     object-fit: cover;
 }
-.cc-menu {  
+
+.banner .banner-desc {
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+}
+
+.cc-menu {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Clemence_MSDIW/Projet-theDistrict/assets/img-thedistrict/bg3.jpeg') center center fixed no-repeat;
+    background-size: cover;
     width: 100%;
     height: 100%;
     padding-top: 150px;
+    background-attachment: fixed;
     position: relative;
+    z-index: 1;
+}
 
+.img-logo {
+    width: 160px;
+    height: 160px;
+}
+
+.card {
+    border: none;
+     background-color:whitesmoke;
+}
+
+.card img {
+    height: 35rem;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.Catégories {
+    font-size: 36px;
+}
+
+.carousel-inner img {
+    object-fit: cover;
+    object-position: center;
+    height: 50vh;
+    overflow: hidden;
+}
+
+form {
+    color: aliceblue;
+    font-size: 20px;
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 150px;
+    padding-top: 150px;
+    justify-content: center;
+
+}
+
+.invalid-feedback {
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(0, 0, 0);
+}
+
+.footer {
+    background-color: rgb(0, 0, 0, .55);
+    width: 100%;
+    bottom: 0;
+    height: 4rem;
+    z-index: 99;
+}
+
+.footer ul li a {
+    color: white;
+    font-size: 30px;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer ul li a:hover {
+    color: rgb(172, 97, 97);
+    width: 100%;
 }

@@ -58,8 +58,8 @@
     height: 120vh;
     padding-top: 150px;
     background-attachment: fixed;
-    position: relative;
-    z-index: 1;
+    /* position: relative; */
+    /* z-index: 1; */
     /* z-order détermine l'ordre des différentes couches */
 }
 
@@ -90,7 +90,7 @@
     padding-top: 150px;
     background-attachment: fixed;
     position: relative;
-    z-index: 1;
+    z-index: -100;
 }
 
 .img-logo {
