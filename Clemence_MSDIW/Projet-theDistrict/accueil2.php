@@ -20,11 +20,11 @@
         include './assets/php/nav.php';
         ?>
     </nav>
-    <?php
-    include './assets/php/banner.php';
-    ?>
+        <?php
+        include './assets/php/banner.php';
+        ?>
     <section class="cc-menu py-5 dancing text-light ">
-        <div class="container">
+        <!-- <div class="container">
             <div class="row">
                 <h3 class="text-center text-light Lugrasimo mb-4">Nos Variétés</h3>
                 <div class="card bg-transparent text-center">
@@ -47,8 +47,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row row-cols-1 row-cols-md-2 g-4">
+        </div> -->
+        <div class="row">
             <div class="col">
                 <div class="card">
                     <img src="../assets/img/cheesburger.jpg" class="card-img-top" alt="cheesburger">
