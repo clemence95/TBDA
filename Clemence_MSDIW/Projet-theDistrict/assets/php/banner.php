@@ -6,8 +6,8 @@
                 Votre navigateur ne prend pas en charge la lecture de vidéos HTML5.
             </video>
         </div>
-        <form class="d-flex" role="search" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-            <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search" style="width: 50vh; height: 30px">
+        <form class="d-flex " role="search" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+            <input class="form-control" type="search" placeholder="Rechercher" aria-label="Search" style="width: 50vh; height: 30px">
             <button class="btn btn-outline-success" style="width: 20vhvh; height: 30px;" type="submit">Recherche</button>
         </form>
     </div>
