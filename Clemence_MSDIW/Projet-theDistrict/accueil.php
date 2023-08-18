@@ -25,7 +25,7 @@
     ?>
     <section class="Catégories bg-dark-subtil Lugrasimo py-5">
         <h1 class="text-center dancing "><a href="#">Catégories</a></h1>
-        <div class="container d-flex">
+        <div class="container d-flex justify-content-center">
             <div class="row g-4">
                 <div class="col-md-3">
                     <div class="card h-100">
@@ -63,8 +63,8 @@
         </div>
     </section>
     <section class="Catégories bg-dark-subtil Lugrasimo py-5">
-        <h1 class="text-center dancing "><a href="#">Plats</a></h1>
-        <div class="container d-flex">
+        <h1 class="text-center dancing"><a href="#">Plats</a></h1>
+        <div class="container d-flex justify-content-center">
             <div class="row g-4">
                 <div class="col-md-3">
                     <div class="card h-100">

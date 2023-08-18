@@ -105,25 +105,13 @@ a:hover {
 
 /* Ajoutez ce style à votre feuille de style CSS */
 .custom-image {
-    width: 300px; /* Largeur fixe */
+    width: 100%; /* Largeur fixe */
     height: 300px; /* Hauteur ajustée automatiquement pour maintenir les proportions */
     object-fit: cover;
 }
 
-.carousel-inner {
-    max-width: 100%;
-    max-height: auto;
-}
-
 .Catégories {
     font-size: 36px;
-}
-
-.carousel-inner img {
-    object-fit: cover;
-    object-position: center;
-    height: 50vh;
-    overflow: hidden;
 }
 
 form {
