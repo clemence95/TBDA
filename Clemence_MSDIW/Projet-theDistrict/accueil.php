@@ -24,7 +24,7 @@
     include './assets/php/banner.php';
     ?>
     <section class="Catégories bg-dark-subtil Lugrasimo py-5">
-        <h2 class="text-center Lugrasimo">Catégories</h2>
+        <h2 class="text-center dancing">Catégories</h2>
         <div class="container d-flex">
             <div class="row">
                 <div class="card mb-3 border-0 ">
