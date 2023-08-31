@@ -1,5 +1,5 @@
 {
     "liveServer.settings.port": 5503,
-    "phpserver.phpConfigPath": "C:\\wamp64\\bin\\php",
-    "phpserver.phpPath": "C:\\wamp64\\bin\\php"
+    "phpserver.phpConfigPath": "C:/wamp64/bin/php/php7.4.33/php.ini",
+    "phpserver.phpPath": "C:/wamp64/bin/php/php7.4.33/php.exe "
 }
