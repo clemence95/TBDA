@@ -106,7 +106,7 @@
         include './assets/php/footer.php';
         ?>
     </footer>
-ggff
+
 </body>
 
 </html>
