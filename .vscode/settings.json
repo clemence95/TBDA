@@ -1,3 +1,5 @@
 {
-    "liveServer.settings.port": 5503
+    "liveServer.settings.port": 5503,
+    "phpserver.phpConfigPath": "php.validate.executablePath\":\"C:\\\\wamp64\\\\bin\\\\php\\\\php7.4.0\""
+    
 }
